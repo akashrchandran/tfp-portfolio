@@ -34,6 +34,7 @@
 	<link rel="stylesheet" href="assets/css/responsive.css" />
 	<link rel="stylesheet" href="assets/css/animation.css" />
 </head>
+
 <body>
 	<!-- Contact section -->
 	<section id="contact" class="contact_wrapper">
@@ -41,31 +42,39 @@
 			<div class="row justify-content-between align-items-center">
 				<div class="col-lg-6 order-2 order-lg-1 pe-lg-5 text-lg-start text-center">
 					<span class="subtitle">Let's Say Hi</span>
-					<h2>Hire Me.</h2>
-					<div id="formaker">
-						<div class="mb-4">
-							<input type="text" class="form-control" id="form-name" placeholder="Your Name..."
-								autocomplete="off" required />
+					<h2>Contact Me.</h2>
+					<div class="row call_details mb-4">
+
+						<lable class="col-sm-3 col-lg-4">Contact Email:</lable>
+
+						<div class="col-sm-9 col-lg-8 mb-3 mb-lg-2 text-md-start">
+							<a href="mailto:akashpillai1601@gmail.com">akashpillai1601@gmail.com</a>
 						</div>
-						<div class="mb-4">
-							<input type="number" class="form-control" id="form-phone" placeholder="Your Phone..."
-								autocomplete="off" />
+						<br>
+						<div id="formaker">
+							<div class="mb-4">
+								<input type="text" class="form-control" id="form-name" placeholder="Your Name..."
+									autocomplete="off" required />
+							</div>
+							<div class="mb-4">
+								<input type="number" class="form-control" id="form-phone" placeholder="Your Phone..."
+									autocomplete="off" />
+							</div>
+							<div class="mb-4">
+								<input type="email" class="form-control" id="form-email" placeholder="Your Email..."
+									autocomplete="off" required />
+							</div>
+							<div class="mb-4">
+								<input cols="40" rows="4" class="form-control" id="form-message"
+									placeholder="Write a Message..." autocomplete="off" />
+							</div>
+							<button type="submit" value="submit" id="sendmail" class="main-btn" onclick="sendEmail()">
+								Submit
+							</button>
 						</div>
-						<div class="mb-4">
-							<input type="email" class="form-control" id="form-email" placeholder="Your Email..."
-								autocomplete="off" required />
-						</div>
-						<div class="mb-4">
-							<input cols="40" rows="4" class="form-control" id="form-message"
-								placeholder="Write a Message..." autocomplete="off" />
-						</div>
-						<button type="submit" value="submit" id="sendmail" class="main-btn" onclick="sendEmail()">
-							Submit
-						</button>
 					</div>
 				</div>
 			</div>
-		</div>
 	</section>
 	<!-- contact section exit -->
 
@@ -85,5 +94,5 @@
 
 	<!-- Custom scripts -->
 	<script src="assets/js/script.js"></script>
-	
+
 </body>
