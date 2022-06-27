@@ -22,8 +22,13 @@ navBar.forEach(function (a){
 })
 
 /// Year retriver
+try{
 document.getElementById("year").innerHTML = (new Date().getFullYear());
-
+}
+catch(e)
+{
+    console.log(e);
+}
 
 // typing animation\
 var options = {
