@@ -37,9 +37,13 @@ var options = {
     backSpeed: 150,
     loop: true,
 };
-
+try{
 var typed = new Typed('.typerjs', options);
-
+}
+catch(e)
+{
+    console.log(e);
+}
 
 // Send Email func, should have used fetch but jquery seems to be nice
 emailbutton = document.getElementById('sendmail');
