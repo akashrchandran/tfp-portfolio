@@ -4,6 +4,8 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    /* max-width: 100%;
+    overflow-x: hidden; */
 }
 
 :root {
@@ -25,6 +27,7 @@
 body {
     font-family: var(--primary-font);
     background-color: var(--secondary-color);
+    overflow-x: hidden;
 }
 
 #btn-back-to-top {
