@@ -49,7 +49,10 @@
         margin:auto;
 
     }
-
+    .github_wrapper {
+        margin-left: auto;
+        margin-right: auto;
+    }
     /* projects */
     .projects_wrapper .card {
         min-height: 400px;
@@ -88,6 +91,10 @@
         font-size: 13px;
     } 
 
+    .github_wrapper {
+        margin-left: auto;
+        margin-right: auto;
+    }
     /* portfolio */
     .portfolio_wrapper .card {
         min-height: 500px;
